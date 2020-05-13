@@ -1,0 +1,32 @@
+{
+  "name": "iortest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack-dev-server",
+    "format": "prettier --write '**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erochOnGit/IORTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erochOnGit/IORTest/issues"
+  },
+  "homepage": "https://github.com/erochOnGit/IORTest#readme",
+  "dependencies": {
+    "three": "^0.115.0"
+  },
+  "devDependencies": {
+    "file-loader": "^6.0.0",
+    "prettier": "^2.0.4",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-obj-loader": "^1.0.4"
+  }
+}
