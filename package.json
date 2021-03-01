@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/erochOnGit/IORTest#readme",
   "dependencies": {
-    "three": "^0.115.0"
+    "three": "^0.125.0"
   },
   "devDependencies": {
     "file-loader": "^6.0.0",
